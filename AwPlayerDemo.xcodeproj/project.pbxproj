@@ -13,6 +13,8 @@
 		605D91F61C91BFEF00625E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605D91F41C91BFEF00625E1A /* Main.storyboard */; };
 		605D91F81C91BFEF00625E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605D91F71C91BFEF00625E1A /* Assets.xcassets */; };
 		605D91FB1C91BFEF00625E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605D91F91C91BFEF00625E1A /* LaunchScreen.storyboard */; };
+		6083380F1C965B42009AACF5 /* AWPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6083380E1C965B42009AACF5 /* AWPlayer.m */; };
+		60CFB8E21D1935EB005B87F3 /* NSObject+AwError.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CFB8E11D1935EB005B87F3 /* NSObject+AwError.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		605D91F71C91BFEF00625E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		605D91FA1C91BFEF00625E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		605D91FC1C91BFEF00625E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6083380D1C965B42009AACF5 /* AWPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWPlayer.h; sourceTree = "<group>"; };
+		6083380E1C965B42009AACF5 /* AWPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWPlayer.m; sourceTree = "<group>"; };
+		60CFB8E01D1935EB005B87F3 /* NSObject+AwError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AwError.h"; sourceTree = "<group>"; };
+		60CFB8E11D1935EB005B87F3 /* NSObject+AwError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AwError.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				605D91EF1C91BFEF00625E1A /* AppDelegate.m */,
 				605D91F11C91BFEF00625E1A /* ViewController.h */,
 				605D91F21C91BFEF00625E1A /* ViewController.m */,
+				6083380D1C965B42009AACF5 /* AWPlayer.h */,
+				6083380E1C965B42009AACF5 /* AWPlayer.m */,
+				60CFB8E01D1935EB005B87F3 /* NSObject+AwError.h */,
+				60CFB8E11D1935EB005B87F3 /* NSObject+AwError.m */,
 				605D91F41C91BFEF00625E1A /* Main.storyboard */,
 				605D91F71C91BFEF00625E1A /* Assets.xcassets */,
 				605D91F91C91BFEF00625E1A /* LaunchScreen.storyboard */,
@@ -149,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CFB8E21D1935EB005B87F3 /* NSObject+AwError.m in Sources */,
 				605D91F31C91BFEF00625E1A /* ViewController.m in Sources */,
 				605D91F01C91BFEF00625E1A /* AppDelegate.m in Sources */,
+				6083380F1C965B42009AACF5 /* AWPlayer.m in Sources */,
 				605D91ED1C91BFEF00625E1A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AwPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yelin.AwPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +286,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AwPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yelin.AwPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +312,7 @@
 				605D92011C91BFEF00625E1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
