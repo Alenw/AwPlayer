@@ -6,5 +6,5 @@ A video player can play with online URL or offline document path .
 ###### 如果想支持更多的格式，可以使用我另一份集成FFMPEG代码，支持各种流媒体视频格式；
 
 <br/>
-![](https://github.com/Alenw/AwAlertView/blob/master/share.gif)
+![](https://github.com/Alenw/AwPlayer/blob/master/share.gif)
 <br/>
